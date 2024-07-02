@@ -2,14 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f8f9fa;
 }
 
 header {
-    background-color: #333;
+    background-color: #343a40;
     color: white;
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +32,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
@@ -55,7 +55,7 @@ nav ul li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
 }
@@ -91,22 +91,24 @@ nav ul li a:hover {
 
 .intro, .quick-links {
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px;
     background: white;
     margin: 20px 0;
 }
 
 .intro h2, .quick-links h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .intro p {
     font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .intro .more-info, .quick-links ul li a {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px 20px;
     background: #ff6600;
     color: white;
@@ -122,14 +124,17 @@ nav ul li a:hover {
 .quick-links ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .quick-links ul li {
-    margin: 10px 0;
+    margin: 10px 20px;
 }
 
 footer {
-    background-color: #333;
+    background-color: #343a40;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -160,4 +165,3 @@ footer {
     width: 30px;
     height: 30px;
 }
-
